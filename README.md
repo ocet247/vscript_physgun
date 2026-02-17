@@ -4,7 +4,7 @@ Recreates physgun in games that don't have it by using vscript. Made for Team Fo
 ## Usage
 To give player a physgun, pass them as a parameter into `PhysgunHolder` class. To remove it, search for `PHYSGUN_SCOPE_PROPERTY` variable inside their scope and call `.destructor()` method on it.
 
-Physgun can be accessed by selecting slot5 (default key: 6). It will be preserved after deaths and round restarts.
+Physgun can be accessed by selecting slot6 (default key: 6). It will be preserved after deaths and round restarts.
 
 The physgun can operate in 2 modes:
 * Velocity mode: moves the target by changing their velocity which allows the user to accelerate the target.
