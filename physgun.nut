@@ -205,7 +205,7 @@ ClassPhysgunInfo[TF_CLASS_SOLDIER] = WorldPhysgunStats("tf_weapon_shotgun_soldie
 ClassPhysgunInfo[TF_CLASS_PYRO] = WorldPhysgunStats("tf_weapon_shotgun_pyro");
 ClassPhysgunInfo[TF_CLASS_DEMOMAN] = WorldPhysgunStats("tf_weapon_grenadelauncher");
 ClassPhysgunInfo[TF_CLASS_HEAVYWEAPONS] = WorldPhysgunStats("tf_weapon_shotgun_hwg", QAngle(45, 90, 180));
-ClassPhysgunInfo[TF_CLASS_ENGINEER] = WorldPhysgunStats("tf_weapon_shotgun_primary");
+ClassPhysgunInfo[TF_CLASS_ENGINEER] = WorldPhysgunStats("tf_weapon_shotgun_primary", QAngle(40, 130, 180));
 ClassPhysgunInfo[TF_CLASS_MEDIC] = WorldPhysgunStats("tf_weapon_syringegun_medic");
 ClassPhysgunInfo[TF_CLASS_SNIPER] = WorldPhysgunStats("tf_weapon_smg");
 ClassPhysgunInfo[TF_CLASS_SPY] = WorldPhysgunStats("tf_weapon_revolver");
@@ -905,5 +905,6 @@ __CollectGameEventCallbacks(::PhysgunEvents <- {
         }
     }
 });
+
 
 PhysgunHolder(GetListenServerHost());
